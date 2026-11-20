@@ -17,3 +17,9 @@ export interface ScheduleDay {
     date: string;
     items: ScheduleItem[];
 }
+
+export interface TeamMember {
+    name: string;
+    role: string;
+    photo: string;
+}

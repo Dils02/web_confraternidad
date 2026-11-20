@@ -1,13 +1,6 @@
 export default function Footer() {
     return (
         <footer className="footer">
-
-            <img
-                src="/assets/images/banner-lema.jpeg"
-                alt="Volviendo a las sendas antiguas. Confraternidad de jóvenes, 20, 21 y 22 de noviembre"
-                className="footer-banner"
-            />
-
             <div className="footer-container">
 
                 <div className="footer-text">

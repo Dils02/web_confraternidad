@@ -1,4 +1,4 @@
-import type { ScheduleDay } from "../types/event";
+import type { ScheduleDay, TeamMember } from "../types/event";
 
 
 export const eventConfig = {
@@ -143,3 +143,32 @@ export const schedule: ScheduleDay[] = [
 
 export const galleryUrl =
     "https://drive.google.com/drive/folders/1DAukPMeb2Y1GI7Pdg23jY4CJKKOfMWT9?usp=sharing";
+
+export const pastor: TeamMember = {
+    name: "Pastor David Manríquez",
+    role: "Pastor de la iglesia",
+    photo: "/assets/images/directiva/pastor.jpg",
+};
+
+export const directiva: TeamMember[] = [
+    {
+        name: "Juan Irribarra Contreras",
+        role: "Jefe del Cuerpo de Jóvenes",
+        photo: "/assets/images/directiva/jefe.jpg",
+    },
+    {
+        name: "Andrés Domínguez Varela",
+        role: "Ayudante",
+        photo: "/assets/images/directiva/ayudante.jpg",
+    },
+    {
+        name: "Andrés Vega Isla",
+        role: "Secretario",
+        photo: "/assets/images/directiva/secretario.jpg",
+    },
+    {
+        name: "Marco Irribarra Vergara",
+        role: "Tesorero",
+        photo: "/assets/images/directiva/tesorero.jpg",
+    },
+];

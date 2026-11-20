@@ -45,7 +45,7 @@ export default function Hero() {
 
                         <div className="hero-detail">
                             <MapPin size={20} />
-                            <span>Lota, Región del Biobío, Chile</span>
+                            <span>Serrano 558, Lota, Región del Biobío, Chile</span>
                         </div>
 
                     </div>
