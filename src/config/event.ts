@@ -140,3 +140,6 @@ export const schedule: ScheduleDay[] = [
         ],
     },
 ];
+
+export const galleryUrl =
+    "https://drive.google.com/drive/folders/1DAukPMeb2Y1GI7Pdg23jY4CJKKOfMWT9?usp=sharing";

@@ -72,7 +72,7 @@ export default function Hero() {
 
                     <div className="hero-logo-frame">
                         <img
-                            src="/assets/images/logo-jovenes.jpeg"
+                            src="/assets/images/logo-jovenes.png"
                             alt="Escudo del Cuerpo de Jóvenes Amigos de Cristo de Lota"
                             className="hero-logo"
                         />

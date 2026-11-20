@@ -6,6 +6,7 @@ import EventInfo from "../components/sections/EventInfo";
 import AboutEvent from "../components/sections/AboutEvent";
 import Schedule from "../components/sections/Schedule";
 import Churches from "../components/sections/Churches";
+import GalleryAccess from "../components/sections/GalleryAccess";
 
 export default function Home() {
     return (
@@ -18,10 +19,9 @@ export default function Home() {
                 <AboutEvent />
                 <Schedule />
                 <Churches />
+                <GalleryAccess />
 
-                {/* Próximas secciones:
-                    Schedule
-                    GalleryAccess
+                {/* Próxima sección:
                     Location
                 */}
             </main>

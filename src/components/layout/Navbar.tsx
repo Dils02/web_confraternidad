@@ -32,7 +32,7 @@ export default function Navbar() {
                     </div>
 
                     <img
-                        src="/assets/images/logo-jovenes.jpeg"
+                        src="/assets/images/logo-jovenes.png"
                         alt="Escudo Amigos de Cristo"
                         className="brand-shield"
                     />

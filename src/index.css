@@ -958,6 +958,106 @@ button {
   }
 }
 
+/* AJUSTES MÓVIL */
+
+body {
+  overflow-x: clip;
+}
+
+@media (max-width: 700px) {
+
+  .hero-container,
+  .about-container,
+  .churches-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero-container {
+    padding: 40px 16px 80px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(26px, 8.5vw, 40px);
+    letter-spacing: -0.5px;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-logo-glow {
+    display: none;
+  }
+
+  .section-container,
+  .about-container {
+    padding: 60px 16px;
+  }
+
+  .glass,
+  .hero-content {
+    padding: 24px 18px;
+  }
+
+  .churches-grid .glass {
+    text-align: center;
+  }
+
+  .churches-grid .section-eyebrow {
+    justify-content: center;
+  }
+
+  .church-list {
+    justify-items: center;
+  }
+
+  .churches-poster {
+    justify-self: center;
+    margin: 0 auto;
+  }
+}
+
+/* GALERÍA */
+
+.gallery-card {
+  max-width: 760px;
+  margin: auto;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.25;
+  color: var(--navy);
+  margin: 18px 0;
+  font-weight: 800;
+}
+
+.gallery-title span {
+  color: var(--gold);
+}
+
+.gallery-text {
+  max-width: 560px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 0 0 28px;
+}
+
+.gallery-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .gallery-card {
+    padding: 32px 20px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
 
   *,
