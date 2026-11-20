@@ -23,3 +23,9 @@ export interface TeamMember {
     role: string;
     photo: string;
 }
+
+export interface HostChurch {
+    church: string;
+    host: string;
+    cohost: string;
+}

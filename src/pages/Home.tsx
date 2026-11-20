@@ -9,6 +9,7 @@ import Schedule from "../components/sections/Schedule";
 import Churches from "../components/sections/Churches";
 import GalleryAccess from "../components/sections/GalleryAccess";
 import Leadership from "../components/sections/Leadership";
+import Hosts from "../components/sections/Hosts";
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
                 <Schedule />
                 <Churches />
                 <GalleryAccess />
+                <Hosts />
 
                 {/* Próxima sección:
                     Location

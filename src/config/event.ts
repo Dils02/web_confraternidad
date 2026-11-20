@@ -1,4 +1,4 @@
-import type { ScheduleDay, TeamMember } from "../types/event";
+import type { ScheduleDay, TeamMember, HostChurch } from "../types/event";
 
 
 export const eventConfig = {
@@ -171,4 +171,17 @@ export const directiva: TeamMember[] = [
         role: "Tesorero",
         photo: "/assets/images/directiva/tesorero.jpg",
     },
+];
+
+export const hosts: HostChurch[] = [
+    { church: "Iquique", host: "Danny Orellana", cohost: "Benjamín Vega Aburto" },
+    { church: "Limache", host: "Jonathan Domínguez", cohost: "Eliseo Cartes" },
+    { church: "Chillán", host: "Pablo Sanhueza Irribarra", cohost: "Benjamín Orellana" },
+    { church: "Penco", host: "Gonzalo Sáez", cohost: "Dilan Araujo" },
+    { church: "Villarrica", host: "Matías Delgado", cohost: "Máximo Pereira" },
+    { church: "San Pedro de la Paz", host: "Felipe Gallmetzer", cohost: "Isaí Carrillo" },
+    { church: "Lebu", host: "Israel Bizama", cohost: "Daniel Lagos" },
+    { church: "Coelemu", host: "Felipe Manríquez", cohost: "Carlos Felipe Alvial" },
+    { church: "Chiguayante", host: "Felipe Díaz", cohost: "Gustavo Landaeta" },
+    { church: "Laja", host: "Samuel Molina", cohost: "Andrés Vega Aburto" },
 ];
